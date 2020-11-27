@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 /Users/iseon-a/Documents/2학기/웹프로그래밍2/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/66334614.index
 /jsp/src
+/Users/iseon-a/Documents/2-2nd semester/webprogramming2/web/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/66334614.index
+/jsp/src
