@@ -1,0 +1,15 @@
+package sql;
+
+import java.sql.*;
+
+public class empTest { //클래
+
+	public static void main(String[] args) { //메인메소
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+
+	}
+
+}

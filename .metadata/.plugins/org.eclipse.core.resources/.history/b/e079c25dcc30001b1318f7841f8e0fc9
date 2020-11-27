@@ -1,0 +1,38 @@
+package sql;
+
+import java.sql.*;
+
+public class empTest { //클래
+
+	public static void main(String[] args) { //메인메소
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			conn=DriverManager.getConnection("jdbc:oracle:thin:@127.0.0.1:1521:xe", "silsub","silsub");
+			String sql=("select *from emp order by empno ASC");
+			
+			pstmt=conn.prepareStatement(sql);
+			rs=pstmt.executeQuery(); //while을 가지고 db에서 데이터를 수행하기 위한 객체 변수
+			
+			double bonus=0.0; // 보너스를 구하기 위한 변
+			int pay=0; //실지급액
+			
+			System.out.println("사 번"+"\t"+"이름"+"\t"+"직업"+"\t"+"급여"+"\t"+"보너스"+"\t"+"실지급액");
+			
+			while(rs.next()) {
+			String empno=	rs.getString("empno");
+			String ename=	rs.getString("ename");
+			String job=		rs.getString("job");
+			int sal=		rs.getInt("sal");
+			}
+			
+					
+			
+		}
+
+	}
+
+}
