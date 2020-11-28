@@ -1,0 +1,45 @@
+package sql;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class ipsaTest {
+
+	public static void main(String[] args) {
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			conn=DriverManager.getConnection("jdbc:oracle:thin:@127.0.0.1:1521:xe", "silsub","silsub");
+
+		String sql="insert into ipsa(sabun, irum, addr, buseo, chulsin, jumsu) values(?,?,?,?,?,?)";
+		pstmt=conn.prepareStatement(sql);
+		
+		pstmt.setString(1, "2016611");
+		pstmt.setString(2, "서울 강남구 도곡동 123");
+		
+	}
+		rs.close();
+		pstmt.close();
+		conn.close();
+				
+		
+	} //try closing
+	
+	catch(Exception e) {
+		e.printStackTrace();
+	}
+	finally {
+		try {
+			if(pstmt != null)pstmt.close();
+			if(conn != null)conn.close();
+		}catch(SQLException e) {
+	}
+
+}
+
