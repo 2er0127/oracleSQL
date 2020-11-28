@@ -8,7 +8,6 @@ INDEX VERSION 1.131+/Users/iseon-a/Documents/2-2nd semester/webprogramming2/web/
 2473055855.index
 2625586751.index
 2788512920.index
-4253209529.index
 3891879584.index
 3848337282.index
 1120645360.index
