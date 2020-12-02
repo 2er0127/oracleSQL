@@ -4,5 +4,4 @@ INDEX VERSION 1.4+/Users/iseon-a/Documents/2-2nd semester/webprogramming2/web/.m
 3109992297.index
 1116456040.index
 3359798667.index
-66334614.index
 1818572654.index
