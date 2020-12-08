@@ -17,7 +17,7 @@ public class test01 {
 		String str="select * from elec_code";
 		rs=stmt.executeQuery(str);
 		
-		System.out.println("CUSTCODE\tIRUM\t\tELEC_CODE\tQTY");
+		System.out.println("CUSTCODE\tIRUM\t\t\tELEC_CODE\t\tQTY");
 		
 		while(rs.next()) {
 			int custcode=rs.getInt(1);
@@ -25,7 +25,7 @@ public class test01 {
 			int eleccode=rs.getInt(3);
 			int qty=rs.getInt(4);
 			
-			System.out.println(custcode+"\t\t"+irum+eleccode+"\t"+qty);
+			System.out.println(custcode+"\t\t"+irum+"\t"+eleccode+"\t\t"+qty);
 		}
 		rs.close();
 		stmt.close();
