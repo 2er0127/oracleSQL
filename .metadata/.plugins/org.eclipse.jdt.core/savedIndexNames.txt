@@ -34,7 +34,6 @@ INDEX VERSION 1.131+/Users/iseon-a/Documents/2-2nd semester/webprogramming2/web/
 1121675395.index
 1948307480.index
 1108962361.index
-86385358.index
 1217523360.index
 2631933586.index
 1934285233.index
@@ -42,9 +41,7 @@ INDEX VERSION 1.131+/Users/iseon-a/Documents/2-2nd semester/webprogramming2/web/
 251785336.index
 557405998.index
 2266687916.index
-2038587759.index
 1188220458.index
-894278468.index
 654750950.index
 3465983448.index
 697264278.index
